@@ -1,0 +1,8 @@
+.InfoContainter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Info {
+  margin: 1.5%;
+}

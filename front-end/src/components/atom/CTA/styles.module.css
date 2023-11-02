@@ -1,0 +1,17 @@
+.CTA {
+  border: none;
+  background-color: #333333;
+  color: #fff;
+  font-weight: 600;
+  font-size: large;
+  width: 100%;
+  padding: 2%;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.Cta-Disabled{
+  cursor: not-allowed;
+  background-color: #757575;
+  color: #d8d4d4;
+}

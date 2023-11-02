@@ -1,0 +1,9 @@
+.seeAll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 1em;
+    font-size: 1.43em;
+    cursor: pointer;
+}

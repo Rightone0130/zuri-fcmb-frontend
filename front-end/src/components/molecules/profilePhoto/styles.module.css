@@ -1,0 +1,18 @@
+.Container {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.PhotoWrapper {
+  width: 70px;
+  height: 70px;
+  border-radius: 5ch;
+  background-color: rgb(255, 255, 255);
+  margin: 3%;
+}
+
+.Image {
+  object-fit: cover;
+  width: 100%;
+}

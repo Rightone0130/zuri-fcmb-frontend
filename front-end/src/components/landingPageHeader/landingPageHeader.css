@@ -1,0 +1,151 @@
+
+.lndPgheaderMainContainer{
+    color: black;
+    padding: 1em 7em;
+    margin: 0%;
+    font-size: 1.5em;
+    
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    
+}
+.lndPgheaderLogo {
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.lndPgheaderLogo span{
+    margin-left: 0.6em;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.lndPgheaderMainContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.lndPgheaderTabs{
+    display: flex;
+    justify-content: space-around;
+    min-width: 40%;
+}
+
+.lndPguserOption{
+    display: flex;
+}
+
+.lndPgtabsContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.lndPgtabsContainer span{
+    margin-left:0.8em;
+ }
+
+ .lndPgsignInBtn{
+    border: 1px solid #333;
+    border-radius: 0.38em;
+    padding: 0.3em;
+    font-weight: 600;
+    text-wrap: nowrap;
+ }
+
+
+ .lndPgsignUpBtn{
+    border: 1px solid #333;
+    border-radius: 0.38em;
+    padding: 0.3em;
+    background-color: #333;
+    color: whitesmoke;
+    font-weight: 600;
+    text-wrap: nowrap;
+    
+ }
+
+
+
+ .lndPgsignInBtn:hover{
+    background-color: #cecdcd;
+    color: rgb(99, 99, 99);
+    border:none;
+    transition: 0.5s;
+
+       }
+
+ .lndPgsignUpBtn:hover{
+    
+    background-color: #cecdcd;
+    color: #333;
+    font-weight: 600;
+    transition: 0.5s;
+    border:1px solid transparent;
+    
+ }
+
+
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  
+
+    .lndPgheaderMainContainer{
+        color: black;
+        padding: 1em 2em;
+        margin: 0%;
+        font-size: 1.5em;
+        
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+        
+    }
+
+    .lndPgheaderTabs{
+        display: none;
+    }
+    .lndPgsignInBtn{
+       
+        font-size: 0.85em;
+        
+     }
+    
+    
+     .lndPgsignUpBtn{
+       
+        font-size: 0.85em;
+        
+     }
+  }
+
+
+  @media only screen and (max-width: 575px) {
+    .lndPgheaderMainContainer{
+        color: black;
+        padding: 1em 2em;
+        margin: 0%;
+        font-size: 1.5em;
+        
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+        
+    }
+
+    .lndPgheaderTabs{
+        display: none;
+    }
+
+    .lndPgsignInBtn{
+       
+        font-size: 0.85em;
+        
+     }
+    
+    
+     .lndPgsignUpBtn{
+       
+        font-size: 0.85em;
+        
+     }
+    
+  }

@@ -1,0 +1,16 @@
+.LoadCardContainer {
+  width: 80%;
+  box-shadow: 0px 2px 8px 0px #8934ad26;
+  padding: 3%;
+}
+
+.PhotoStatusWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.Active{
+  color:  #1F8F0D;
+}

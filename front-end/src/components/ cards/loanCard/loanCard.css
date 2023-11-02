@@ -1,0 +1,51 @@
+.loanCardType1MainContainer{
+    padding: 1.2em;
+    border-radius: 1em;
+    box-shadow: 0px 0px 2px 2px rgba(102, 101, 101, 0.1); 
+    margin-bottom: 1.2em;
+}
+
+
+.loanTopContainer{
+
+display: flex;
+justify-content: space-between;
+
+}
+
+.cardStatus{
+    color: green;
+}
+
+.loanCard1Amount{
+    margin-top: 0.8em;
+    font-size: 1.6em;
+    font-weight: 600;
+    color: #333;
+    
+    
+}
+
+.loanButtonContainer{
+    min-height: 3em;
+    padding-top: 0.5em;
+    display: flex;
+    flex-direction: row;
+    overflow-y: hidden;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.loanAmountLabel{
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loanCardDescription{
+    font-size: 1.5em;
+    margin-right: 2em;
+}

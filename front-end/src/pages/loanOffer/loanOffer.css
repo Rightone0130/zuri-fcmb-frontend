@@ -1,0 +1,21 @@
+
+.loanOfferMainContainer{
+    display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ margin-top: 1.7em;
+ min-width: 80%;
+ 
+}
+
+.loancard{
+    min-width: 40%;
+}
+.loanOfferMainContainer h2{
+
+    margin-top:2em;
+    margin-bottom:2em;
+    
+    text-align: left !important;
+}

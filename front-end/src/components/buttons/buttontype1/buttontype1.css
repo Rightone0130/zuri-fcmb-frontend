@@ -1,0 +1,13 @@
+.buttontype1MainContainer{
+    background-color: white;
+    padding: 0.5em;
+    color: #333;
+    border-radius: 0.4em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    font-size: 1.5em;
+    margin-right: 0.5em;
+    margin-bottom: 1em;
+    text-wrap: nowrap;
+    cursor: pointer;
+   
+}

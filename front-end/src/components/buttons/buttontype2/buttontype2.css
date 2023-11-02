@@ -1,0 +1,20 @@
+.buttonType2Container{
+
+    
+display: flex;
+justify-content: center;
+align-items: center;
+padding: auto;
+margin-top: 2em;
+
+}
+.buttonType2Container button{
+    min-width: 55%;
+    min-height: 2.7em;
+    background-color: #333;
+    border: none;
+    border-radius: 0.3em;
+    color: white;
+    font-size: 1.3em;
+    cursor: pointer;
+}

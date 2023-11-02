@@ -1,0 +1,19 @@
+
+.homeMainContainer{
+
+    display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ margin-top: 1.7em;
+ 
+}
+
+.transactHistory {
+    min-width: 29%;
+    margin-top:3em;
+    font-size: 1.1em;
+    text-align: left !important;
+    
+}
+
